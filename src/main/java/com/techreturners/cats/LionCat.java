@@ -5,7 +5,7 @@ public class LionCat implements Cat {
     private String setting;
     private int averageHeight = 1100;
 
-    public DomesticCat(){
+    public void DomesticCat(){
         this.setting = "domestic";
     }
 

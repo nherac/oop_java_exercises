@@ -5,17 +5,17 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-import org.junit.Ignore;
+//import org.junit.Ignore;
 
 public class CatTest {
 
-    @Ignore
+ 
     @Test
     public void checkCatIsAwake() {
         Cat domesticCat = new DomesticCat();
         assertFalse("Cat should be awake by default", domesticCat.isAsleep());
     }
-    @Ignore
+    
     @Test
     public void checkCatCanGoToSleep() {
         Cat domesticCat = new DomesticCat();

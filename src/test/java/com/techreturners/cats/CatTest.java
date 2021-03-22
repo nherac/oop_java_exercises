@@ -9,8 +9,7 @@ import static org.junit.Assert.*;
 
 public class CatTest {
 
- 
-    @Test
+@Test
     public void checkCatIsAwake() {
         Cat domesticCat = new DomesticCat();
         assertFalse("Cat should be awake by default", domesticCat.isAsleep());
